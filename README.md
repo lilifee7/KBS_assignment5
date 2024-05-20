@@ -21,7 +21,7 @@ In this project, the constraints include:
 Clone the repository to your local machine:
 Use: 
 ```bash
-git clone 
+git clone https://github.com/lilifee7/KBS_assignment5.git
 ```
 
 The following cell contains the Python libraries needed to work with the code. They need to be installed in the running environment with e.g:
@@ -39,8 +39,33 @@ import math
 ```
 
 ## Usage 
-The code already consists all important 
+If you have cloned the repository to your local machine, the JSON file is already included and loaded.
 
+#### Structure of the code 
+Imported Libraries
+The necessary Python libraries are imported at the beginning of the code.
+
+Data Inspection
+The code prints the data as it is stored in the JSON file and provides a visualization of the map.
+
+A Algorithm Implementation*
+To change the cities for which you want to find the path, modify the following lines in the code:
+
+```python
+start = 'Blanes'
+goal = 'Barcelona'
+```
+Replace 'Blanes' and 'Barcelona' with the cities you are interested in.
+
+CSP Algorithm Implementation
+Similarly, for the CSP algorithm results, update the following lines in the code:
+```python
+start_city = 'Blanes'
+goal_city = 'Barcelona'
+max_distance = 150000 
+max_duration = 90 
+```
+Replace 'Blanes' and 'Barcelona' with the desired cities. Furthermore adjust max_distance and max_duration, if you want to change the constraints.
 
 ## Data
 The provided data is a JSON file containing essential information for representing a map. It consists of two main sections:
