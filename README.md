@@ -14,8 +14,9 @@ The A* algorithm is a graph traversal and pathfinding algorithm widely used in v
 The CSP approach tries to find a path by generating all possible paths and checking if they satisfy a set of constraints. 
 In this project, the constraints include:
 
-    Total Distance: The path must not exceed a specified maximum distance.
-    Duration Between Intermediate Cities: Each segment of the journey must not exceed a specified maximum duration.
+Total Distance: The path must not exceed a specified maximum distance.
+    
+Duration Between Intermediate Cities: Each segment of the journey must not exceed a specified maximum duration.
     
 ## Installation
 Clone the repository to your local machine:
@@ -32,8 +33,8 @@ pip install pandas
 
 ```python
 import json
-import pandas as pd
-import matplotlib.pyplot as plt
+import pandas
+import matplotlib.pyplot
 import heapq
 import math
 ```
@@ -42,13 +43,13 @@ import math
 If you have cloned the repository to your local machine, the JSON file is already included and loaded.
 
 #### Structure of the code 
-Imported Libraries
+##### 1. Imported Libraries
 The necessary Python libraries are imported at the beginning of the code.
 
-Data Inspection
+##### 2. Data Inspection
 The code prints the data as it is stored in the JSON file and provides a visualization of the map.
 
-A Algorithm Implementation*
+##### 3. A Algorithm Implementation*
 To change the cities for which you want to find the path, modify the following lines in the code:
 
 ```python
@@ -57,7 +58,7 @@ goal = 'Barcelona'
 ```
 Replace 'Blanes' and 'Barcelona' with the cities you are interested in.
 
-CSP Algorithm Implementation
+##### 4. CSP Algorithm Implementation
 Similarly, for the CSP algorithm results, update the following lines in the code:
 ```python
 start_city = 'Blanes'
@@ -70,8 +71,9 @@ Replace 'Blanes' and 'Barcelona' with the desired cities. Furthermore adjust max
 ## Data
 The provided data is a JSON file containing essential information for representing a map. It consists of two main sections:
 
-    Cities: Provides the name, address, country, latitude, and longitude of the cities.
-    Connections: Describes the distance and duration between pairs of cities
+Cities: Provides the name, address, country, latitude, and longitude of the cities.
+
+Connections: Describes the distance and duration between pairs of cities
 
 ## License
 You can use VSC program to clone the program for free - see the LICENSE file for details.
