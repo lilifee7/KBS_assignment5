@@ -1,21 +1,17 @@
-# Search algorithm - Fidning a path from A to destination B
+# Search algorithm 
+## - Finding a path from A to destination B
 The following code allows you to find a path from source A to destination B on a map.
 
 ## Introduction 
 The aim of this project is to solve the problem of finding a path from a starting point to a destination. 
 The project is implemented in Python and utilizes two search algorithms: the A* algorithm and the Constraint Satisfaction Problem (CSP) approach. 
-The A* algorithm is used to find the shortest path between the source and the destination. 
-The CSP approach is used to find a path that satisfies a set of constraints, ensuring the practicality of the route 
-by limiting the total distance traveled and the duration between cities.
 
 ## Implementation
 #### A* algorithm
-The A* algorithm is a graph traversal and pathfinding algorithm and used widely used in various areas of computer 
-science due to its efficiency and effectiveness in minimizing travel distance or time.
-In this code we use it to find the shortest path between the source and the destination. 
+The A* algorithm is a graph traversal and pathfinding algorithm widely used in various areas of computer science due to its efficiency and effectiveness in minimizing travel distance or time. In this project, the A* algorithm is used to find the shortest path between the source and the destination.
 
 #### Constraint Satisfaction Problem (CSP)
-the CSP algorithm tries to find a path by generating all optional paths and checking if they satisfy a set of constraints. 
+The CSP approach tries to find a path by generating all possible paths and checking if they satisfy a set of constraints. 
 In this project, the constraints include:
 
     Total Distance: The path must not exceed a specified maximum distance.
@@ -43,6 +39,7 @@ import math
 ```
 
 ## Usage 
+The code already consists all important 
 
 
 ## Data
