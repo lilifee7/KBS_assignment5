@@ -34,7 +34,8 @@ pip install pandas
 ```python
 import json
 import pandas as pd
-import matplotlib.pyplot
+import matplotlib.pyplot as plt
+import math
 import heapq
 ```
 
